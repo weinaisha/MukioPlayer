@@ -1,0 +1,42 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@keyframes move{
+  from{
+    right: -20px;
+  }
+  to{
+    right: 500px;
+  }
+}
+.show-barrage .moveaction{
+  animation:move 5s linear;
+}
+.show-barrage{
+  position: relative;
+  width:600px;
+  height:300px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+.barrage{
+  position: absolute;
+}
+.input-barrage{
+  margin: 0;
+  width: 449px;
+  height: 25px;
+  border: none;
+  background: #cecece;
+  color: #fff;
+}
+.submit{
+  height: 25px;
+  background: #009688;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}

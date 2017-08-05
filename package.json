@@ -1,0 +1,21 @@
+{
+  "name": "mukioplayer",
+  "version": "1.0.0",
+  "description": "直播弹幕插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "express": "^4.15.3",
+    "socket.io": "^2.0.3"
+  },
+  "repository":{
+    "type": "git",
+    "url": "git+https://github.com/weinaisha/mukioplayer.git"
+  },
+  "homepage": "https://github.com/weinaisha/mukioplayer#readme"
+}
